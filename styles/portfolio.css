@@ -1,0 +1,50 @@
+/* google fonts */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+/* common shared style */
+
+.orange-alphabet{
+    color: orange;
+}
+
+.primary-color-button{
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 10px;
+
+}
+/* nav styles here */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav > h3 {
+    font-size: 50px;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav > ul > li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+}
+
+
+/* orange color related style */
+

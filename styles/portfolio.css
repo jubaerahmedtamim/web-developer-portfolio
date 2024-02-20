@@ -23,8 +23,9 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px 350px;
 }
 
 nav > h3 {
@@ -46,5 +47,16 @@ nav > ul > li > a {
 }
 
 
-/* orange color related style */
+/* banner style */
+
+.banner {
+    padding: 10px 30px 10px 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner > .banner-content{
+    width: 585px;
+}
 
